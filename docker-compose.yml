@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  db:
+    build: .
+    image: instedd/ask-mysql:5.7
+
